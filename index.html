@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>ADHD</title>
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>ADHD</h1>
+      <h2>Learning to code with ADHD 🧠</h2>
+      <img class="image" src="src/images/adhd.avif" />
+      <p>
+        Individuals with ADHD have difficulties with maintaining attention,
+        executive function and working memory. Recently, deficits in executive
+        function have emerged as key factors affecting academic and career
+        success. Executive function is the brain’s ability to prioritize and
+        manage thoughts and actions. Individuals who have issues with executive
+        functioning may have difficulties completing tasks or may forget
+        important things.
+        <br />
+        <br />
+
+        The structure of SheCodes courses is ideal for anyone with ADHD wanting
+        to learn front-end web development. The lessons are on average, no more
+        than 10minutes long with a fun and challenging practical challenge
+        afterwards. Each week you are given homework which emcompasses all the
+        skills you have learned that week. Additional self-learning is required
+        which is a fantastic skill to learn effectively, in preparation for the
+        working environment within web development spaces.
+     </p>
+    </br>
+    <p class="about">
+      < What I used to build this landing page />
+    </p>
+    <p class="tools">
+      This is the very first thing I built when I started to learn how to code at the start of 2023. I am using basic HTML, CSS and vanilla Javascript. No frameworks or libraries are used here. 
+      I have used vanilla Javscript to add a simple event listener and a query selector to re-render the inner HTML of the 'h1`. 
+    </p>
+      <a
+        href="https://chadd.org/for-adults/overview/"
+        target="_blank"
+        class="learnMore"
+      >
+        Learn more about ADHD
+      </a>
+
+      <button class="visit-SheCodes"><strong> Contact SheCodes</strong></button>
+
+      <p class="footer">This page was built by Robyn Windsor</p>
+    </div>
+    <script>
+      function contact() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+
+        let h1 = document.querySelector("h1");
+        h1.innerHTML = "Thank you " + name + ", we'll be in touch!";
+      }
+
+      let contactButton = document.querySelector("button");
+
+      contactButton.addEventListener("click", contact);
+    </script>
+  </body>
+</html>

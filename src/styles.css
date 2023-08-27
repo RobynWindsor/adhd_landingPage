@@ -1,0 +1,97 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #3a384c;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #3a384c;
+}
+
+img {
+  border-radius: 5px;
+}
+p {
+  display: flex;
+  display: center;
+  font-family: "Montserrat", sans-serif;
+  color: #3a384c;
+  font-size: 20px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background: #6fc0c7;
+  color: black;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  color: white;
+  transition: 0.7s;
+}
+
+.visit-SheCodes {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  padding: 10px;
+}
+.learnMore {
+  font-size: small;
+  display: inline;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-decoration: underline;
+  font-weight: 10px;
+}
+
+.learnMore:hover {
+  color: teal;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  max-height: 900px;
+  margin: 0 auto;
+  padding: 40px 60px;
+  padding-top: 200px;
+  background: linear-gradient(#dfbbb1, white);
+  border-radius: 10px;
+}
+
+.about {
+  color: #167d7f;
+}
+
+.tools {
+  color: #3a384c;
+}
