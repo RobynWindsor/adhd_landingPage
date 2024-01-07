@@ -23,9 +23,9 @@ ADHD is more than a diagnosis; it's a unique way of experiencing the world. Our 
 
 ## Screenshot:
 
-## Why Support ADHD Awareness?
-
 ![image](https://github.com/RobynWindsor/adhd_landingPage/assets/127926809/3423e958-1853-48a5-b825-f8b2dcaf28d5)
+
+## Why Support ADHD Awareness?
 
 - **Promoting Understanding:** By raising awareness, we contribute to a more informed and empathetic society.
 
